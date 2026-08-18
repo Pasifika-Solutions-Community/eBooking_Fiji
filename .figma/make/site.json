@@ -1,0 +1,10 @@
+{
+  "description": "Automates venue marketing by promoting spaces across Fiji's digital channels with tiered packages, boosting bookings and local visibility for hosts.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

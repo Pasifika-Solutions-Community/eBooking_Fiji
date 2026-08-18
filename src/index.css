@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-teal-950: #0b2e2b;
+  --color-teal-900: #133d38;
+  --color-teal-800: #1a5450;
+  --color-teal-700: #226b65;
+  --color-teal-600: #2a837b;
+  --color-teal-500: #33a099;
+  --color-teal-400: #55bbb4;
+  --color-teal-300: #82d0ca;
+  --color-teal-200: #b6e8e4;
+  --color-teal-100: #dff5f3;
+  --color-teal-50: #f0fbfa;
+
+  --color-coral-600: #c94b28;
+  --color-coral-500: #e05c35;
+  --color-coral-400: #f07451;
+  --color-coral-300: #f5987a;
+  --color-coral-200: #fac4b0;
+  --color-coral-100: #fde8df;
+  --color-coral-50: #fff3ef;
+
+  --color-sand-900: #2d2519;
+  --color-sand-800: #4a3e2e;
+  --color-sand-700: #6b5c43;
+  --color-sand-600: #8c7b5e;
+  --color-sand-400: #c8b89a;
+  --color-sand-300: #ddd0bc;
+  --color-sand-200: #ede7dc;
+  --color-sand-100: #f7f3ed;
+  --color-sand-50: #fdfbf8;
+}
+
+* {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(42,131,123,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(42,131,123,0.5); }
